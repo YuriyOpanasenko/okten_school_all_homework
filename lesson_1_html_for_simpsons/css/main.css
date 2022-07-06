@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFF99;
+}
+h1  {
+    background-color: #FA005A;
+    color: white;
+    padding: 10px;
+}
+a  {
+    background-color: #FA005A;
+    color: white;
+    padding: 10px;
+}
+p {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+li {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+
+}
+ul {
+background-color: lightslategrey;
+
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+img {
+    max-height: 400px;
+}
