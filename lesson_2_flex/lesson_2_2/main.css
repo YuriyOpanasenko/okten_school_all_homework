@@ -10,18 +10,21 @@ body {
     margin: 0;
 
 }
+
 .main {
     flex-direction: column;
     height: 100%;
     gap: 17px;
     color: white;
 }
+
 .three_in {
     display: flex;
     width: 100%;
     justify-content: space-between;
 
 }
+
 .main, .top, .bottom, .little_one {
     display: flex;
     justify-content: center;
@@ -33,11 +36,13 @@ body {
     height: 205px;
     background-color: #16457A;
 }
+
 .top {
     width: 500px;
     height: 205px;
     background-color: #2269BB;
 }
+
 .bottom {
     width: 500px;
     height: 410px;
