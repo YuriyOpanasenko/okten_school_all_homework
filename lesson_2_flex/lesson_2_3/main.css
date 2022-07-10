@@ -1,0 +1,86 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #B96A33;
+    font-size: 14px;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #AFAFB0;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0;
+
+}
+
+.ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #999999;
+    font-size: 20px;
+    width: 180px;
+    height: 250px;
+    box-shadow: 1px 1px 1px 1px #E2E2E2;
+    margin: 0 10px 0 10px;
+}
+
+.fa-solid {
+
+}
+
+button {
+    background-color: #55C3B6;
+    border: none;
+    width: 80px;
+    height: 28px;
+    font-size: 10px;
+    color: white;
+    margin: 20px 20px 0 20px;
+}
+
+@media screen and (min-width: 0) and (max-width: 700px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .ico {
+        margin: 10px;
+    }
+
+    .earth {
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+}
