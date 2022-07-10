@@ -13,9 +13,10 @@ body {
 
 .main {
     flex-direction: column;
-    height: 100%;
+
     gap: 17px;
     color: white;
+    margin: 17px;
 }
 
 .three_in {
