@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.big_box {
+    width: 950px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    margin: 16px;
+    padding: 50px;
+
+}
+
+.rectangle {
+    background-color: white;
+    width: 284px;
+    height: 332px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    border-color: #999999;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+
+}
+
+.round {
+    background-color: white;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    top: -58px;
+    border-color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-desktop, .fa-life-ring, .fa-martini-glass {
+    color: #EC9114;
+    font-size: 23px;
+}
+
+h2 {
+    color: #383838;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    line-height: 1.8;
+}
+
+button {
+    margin: 15px;
+    width: 190px;
+    height: 48px;
+    background-color: white;
+    border-width: 1px;
+    font-size: 16px;
+    color: #383838;
+
+}
+
+button:hover {
+    background-color: #333333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 200ms;
+
+}
+button:active {
+    background: #747474;
+    transition: background 0s;
+}
+
+@media screen and (min-width: 0) and (max-width: 1285px) {
+    .big_box {
+        flex-direction: column;
+    }
+
+    .card_block {
+        margin-bottom: 50px;
+    }
+
+    .big_box {
+        padding-bottom: 10px;
+    }
+}
