@@ -1,7 +1,11 @@
+body {
+    margin: 0;
+}
 .general {
     display: flex;
     justify-content: center;
-    margin: 0;
+
+
 }
 
 .maine_box {
