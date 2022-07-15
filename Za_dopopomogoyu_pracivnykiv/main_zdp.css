@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+.maine_box {
+}
+.first_screen {
+    height: 1040px;
+    display: flex;
+    align-items: center;
+    background-image: url("img/prfcivnyky_za_robotoyu_2.jpg ");
+    flex-direction: column;
+
+}
+
+.logo_ta_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-top: 54px;
+
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-width: 202px;
+    height: 75px;
+    border-radius: 20px 20px 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.green {
+    color: #2A7D2E;
+}
+.menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    min-width: 875px;
+    height: 75px;
+    border-radius: 0 20px 20px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.el_menu {
+    margin: 0 20px 0 20px;
+}
+.menu>div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.fa-diamond {
+    font-size: 10px;
+}
+.big_text {
+    font-size: 90px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+
+}
+.box_for_middle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.green_rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 50px;
+    background-color: #2A7D2E;
+}
+.text_v_zelenomu {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.knopka_pershogo_ekranu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 236px;
+    height: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+}
+.fa-paper-plane {
+    font-size: 20px;
+    margin-left: 16px;
+}
+.persha_forma {
+    width: 1170px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_for_middle>p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
