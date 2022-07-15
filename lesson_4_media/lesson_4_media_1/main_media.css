@@ -8,7 +8,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    padding: 16px;
+    padding: 8px;
     box-sizing: border-box;
 
 }
@@ -23,8 +23,8 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 16px;
+    flex-direction: column;
 }
 
 .name {
@@ -74,14 +74,14 @@ body {
 }
 @media screen and (max-width: 800px) {
     .big_box {
-        gap: 16px;
+        gap: 2.1%;
 
     }
     .b_c {
         flex-direction: column;
-        height: 73%;
         margin: 0;
-        gap: 16px;
+        height: 72%;
+        gap: 3%;
         box-sizing: border-box;
 
     }
@@ -91,13 +91,14 @@ body {
     }
     .b {
         width: 100%;
+        height: 66%;
 
 
 
     }
     .c {
         width: 100%;
-        height: 50%;
+        height: 33%;
         background-color: #AFAFB0;
         border-radius: 10px;
         display: flex;
