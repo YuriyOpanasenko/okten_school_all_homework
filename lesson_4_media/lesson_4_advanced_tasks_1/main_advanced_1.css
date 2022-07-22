@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+.maine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.logo_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.logo {
+    width: 20%;
+    height: 100%;
+}
+.header {
+    height: 100%;
+    width: 80%;
+}
+.bg {
+    background-color: #747474;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.nav {
+    width: 20%;
+
+}
+.intro_ad_types_product {
+    width: 80%;
+}
+.store_tools {
+    width: 20%;
+}
+

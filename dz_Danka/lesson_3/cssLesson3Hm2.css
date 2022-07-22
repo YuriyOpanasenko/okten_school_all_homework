@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.bg1{
+    height: 130px;
+    background: lightgrey;
+display: flex   ;
+    align-items: center;
+}
+.bg2    {
+    height: 600px;
+    background: rgb(15,42,61    ) ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bg3 {
+    height: 209px;
+    background: lightgrey;
+}
+.box{
+    width: 100hv;
+    height: 200px;
+    position: absolute;
+    bottom: -90px;
+    display: flex;
+}
+.smallbox {
+    height: 200px;
+    width: 200px;
+    background: RGB(105, 100, 226);
+    margin: 20px;
+    border-radius:7%;
+}
+.boxik{
+    height: 60px;
+    width: 190px;
+    border-radius: 13px;
+    background: rgb(15,42,61) ;
+    margin-left: 200px;
+}
+i {
+    font-size: 34px;
+    color: mediumpurple;
+    letter-spacing: 30px;
+}
+.icons1 {
+    position: absolute;
+    right: 200px;
+}
+
+.icons2 {
+    position: absolute;
+    right: 150px;
+}
+
+
+
