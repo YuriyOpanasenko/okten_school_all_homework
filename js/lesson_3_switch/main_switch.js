@@ -2,13 +2,13 @@
 // Якщо змінна x не дорівнює нулю, виведіть 'Вірно',
 // інакше виведіть 'Невірно'.
 
-let x = 1;
-if (x !== 0) {
-    console.log('Вірно')
-}
-else {
-    console.log('Невірно')
-}
+// let x = 1;
+// if (x !== 0) {
+//     console.log('Вірно')
+// }
+// else {
+//     console.log('Невірно')
+// }
 
 // Перевірте скрипт при a, що дорівнює 1, 0, -3
 
@@ -100,6 +100,8 @@ else {
 //     case 'sunday':
 //         console.log('Відпочивай!')
 //         break;
+//     default:
+//         console.log('Такий день ще не визнано офіційно ;)')
 // }
 
 // - Користувач вводить або має два числа.
@@ -126,3 +128,5 @@ else {
 // let x = prompt("jhh") || "default";
 // console.log(x);
 
+// let x = null || "default";
+// console.log(x);
