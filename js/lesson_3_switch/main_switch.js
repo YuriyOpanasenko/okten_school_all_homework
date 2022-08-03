@@ -130,3 +130,10 @@
 
 // let x = null || "default";
 // console.log(x);
+for (const arrayElement of array) {
+    
+}
+for (let i = 0; i < array.length; i++) {
+    const arrayElement = array[i];
+    
+}
