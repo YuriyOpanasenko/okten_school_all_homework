@@ -1,10 +1,10 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
-function calculationAreaRectangle(a, b) {
-    return console.log(2 * (a + b));
-}
-
-calculationAreaRectangle(4, 9);
+// function calculationAreaRectangle(a, b) {
+//     return console.log(2 * (a + b));
+// }
+//
+// calculationAreaRectangle(4, 9);
 
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
@@ -100,15 +100,15 @@ calculationAreaRectangle(4, 9);
 //     {id: '3534534', name: 'EEE', age: 31}
 // ];
 //
-// function acceptsArrayObjects (arr) {
-//     document.write(`<ul>`);
-//     for (let i = 0; i < arr.length; i++) {
-//         document.write(`<li>id: ${arr[i].id}   name: ${arr[i].name}  age:${arr[i].age}</li>`);
-//     }
-//         document.write(`</ul>`);
-//
-// }
-// acceptsArrayObjects(users);
+function acceptsArrayObjects (arr) {
+    document.write(`<ul>`);
+    for (let i = 0; i < arr.length; i++) {
+        document.write(`<li>id: ${arr[i].id}   name: ${arr[i].name}  age:${arr[i].age}</li>`);
+    }
+        document.write(`</ul>`);
+
+}
+acceptsArrayObjects(users);
 
 
 // - створити функцію яка повертає найменьше число з масиву
@@ -142,7 +142,6 @@ calculationAreaRectangle(4, 9);
 //     return console.log(result);
 // }
 // multiplyAll(numbers);
-
 
 
 
