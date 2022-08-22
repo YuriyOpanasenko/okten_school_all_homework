@@ -221,8 +221,8 @@
 // та додає його до блоку .menu
 // Завдання робити через цикли.
 
-// let menuList = ['Main','Products','About us','Contacts'];
-// let menu = document.getElementsByClassName('menu');
+// let menuList = ['Main','Products','About us','Contacts'];//
+// let menu = document.getElementsByClassName('menu');//
 
 // let menu = document.querySelector('.menu');
 // menu = ['Main','Products','About us','Contacts'];
@@ -256,7 +256,7 @@
 // Завдання робити через цикли.
 
 
-//**********************************************************************************************************************
+//*******************************************************************************************************************_OK
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
@@ -302,48 +302,72 @@
 // }
 //
 //
-//**********************************************************************************************************************
+//*******************************************************************************************************************_OK
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так,
 //     щоб при натисканні на кнопку зникав елемент з id="text".
 
-let newBlock = document.createElement('div');
-document.body.appendChild(newBlock);
-newBlock.id = 'text';
-newBlock.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, minima!';
+// let newBlock = document.createElement('div');
+// document.body.appendChild(newBlock);
+// newBlock.id = 'text';
+// newBlock.innerText = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, minima!';
+//
+// let newButton = document.createElement('button');
+// document.body.appendChild(newButton);
+//
+// newButton.style.backgroundColor = 'blue'
+// newButton.style.width = '30%';
+// newButton.style.height = '50px';
+// newButton.style.borderStyle = 'none';
+// newButton.style.borderRadius = `5px`;
+// newButton.innerText = 'BUTTON';
+// newButton.style.color = 'white';
+// newButton.style.marginTop = '25px';
+//
+// let shown = true;
+//
+// newButton.onclick = function () {
+//     shown = !shown;
+//     if (shown) {
+//         newBlock.style.display = 'block';
+//     }
+//     else {
+//         newBlock.style.display ='none'
+//     }
+//
+// }
 
-let newButton = document.createElement('button');
-document.body.appendChild(newButton);
-
-newButton.style.backgroundColor = 'blue'
-newButton.style.width = '30%';
-newButton.style.height = '50px';
-newButton.style.borderStyle = 'none';
-newButton.style.borderRadius = `5px`;
-newButton.innerText = 'BUTTON';
-newButton.style.color = 'white';
-newButton.style.marginTop = '25px';
-
-let shown = true;
-
-newButton.onclick = function () {
-    shown = !shown;
-    if (shown) {
-        newBlock.style.display = 'block';
-    }
-    else {
-        newBlock.style.display ='none'
-    }
-
-}
 
 
+//*******************************************************************************************************************
 
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
+
+
+let age = document.querySelector('.input1');
+console.log(age.value);
+let button = document.querySelector('.button1');
+button.onclick = function (){
+    if(age.value < 18) {
+        alert('тобі мало років')
+    }
+    else if (age.value > 18) {
+        alert('Заходь')
+    }
+    else{
+        alert('Тільки цифри')
+    }
+}
+
 //     При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи менше він ніж 18,
 //     та повідомити про це користувача
-//
+
+
+
+
 //**********************************************************************************************************************
+
+
 
 // *** Створити 3 інпути та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
