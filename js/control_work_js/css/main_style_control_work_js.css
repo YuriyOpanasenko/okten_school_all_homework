@@ -1,0 +1,58 @@
+/*//     Стилізація проєкту -*/
+/*//     index.html - всі блоки з user - по 2 в рядок. кнопки/посилання розташувати під інформацією про user.*/
+
+/*//     user-details.html - блок з інфою про user зверху сторінки. Кнопка нижче, на 90% ширини сторінки, по центру.*/
+/*//     блоки з короткою іфною про post - в ряд по 5 .*/
+
+/*//     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+
+/*//     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+body {
+    margin: 0;
+}
+.divForFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #2269BB;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-top: 10px;
+    min-width: 100%;
+}
+
+span {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #CED8E1;
+    padding: 10px;
+
+}
+span:first-child {
+    flex-grow: 0.5;
+}
+span:last-child {
+    width: 70%;
+    margin-left: 1%;
+    flex-grow: 2.5;
+}
+.user > div{
+    display: flex;
+
+}

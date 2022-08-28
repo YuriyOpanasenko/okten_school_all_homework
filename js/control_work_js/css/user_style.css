@@ -1,0 +1,95 @@
+/*//     user-details.html - блок з інфою про user зверху сторінки. Кнопка нижче, на 90% ширини сторінки, по центру.*/
+/*//     блоки з короткою іфною про post - в ряд по 5 .*/
+
+/*//     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+
+/*//     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+/*body {*/
+body {
+    margin: 0;
+}
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+}
+li {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    margin-bottom: 10px;
+}
+
+.buttonForTitle {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 5%;
+    background-color: #2269BB;
+    border-style: none;
+    height: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.key, .el {
+    background-color: #CED8E1;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 45%;
+}
+h4 {
+background-color: #CED8E1;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.divForH {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+}
+.post {
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #2269BB;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    min-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}

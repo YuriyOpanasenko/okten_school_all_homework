@@ -1,0 +1,59 @@
+/*//     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*//     Всі елементи котрі характеризують users, posts, comments візуалізувати, так,
+         щоб було видно що це блоки (дати фон. марджини і тд)*/
+body {
+    margin: 0;
+}
+ul {
+ padding: 0;
+}
+li {
+
+    list-style: none;
+    font-family: sans-serif;
+    background-color: #CED8E1;
+    padding: 8px;
+    font-size: 15px;
+
+
+}
+.ulComments {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-content: space-between;
+
+    /*gap: 16px;*/
+
+
+}
+.ulComments li {
+    padding: 16px;
+    box-sizing: border-box;
+    /*width: calc(25% - 12px);*/
+    /*box-sizing: border-box;*/
+    width: 24.3%;
+    margin-bottom: 16px;
+
+}
+h4 {
+    background-color: #2269BB;
+    padding: 8px;
+    color: white;
+}
+p {
+    background-color: lightslategrey;
+    padding: 8px;
+}
+.ulPost {
+    background-color: #CED8E1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.ulPost li {
+    background-color: lightslategrey;
+    padding: 8px;
+    margin: 16px;
+}
